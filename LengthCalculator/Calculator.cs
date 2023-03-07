@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LengthCalculator
 {
-    internal class lengthcalculator
+    internal class Calculator
     {
-        public void calculatelength()
+        public void CalculateLength()
         {
             Console.WriteLine("Enter x1");
             int a1 = Convert.ToInt32(Console.ReadLine());

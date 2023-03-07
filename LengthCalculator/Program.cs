@@ -10,8 +10,8 @@ namespace LengthCalculator
     {
         static void Main(string[] args)
         {
-            lengthcalculator lengthcalculator = new lengthcalculator();
-            lengthcalculator.calculatelength();
+            Calculator calculator = new Calculator();
+            calculator.CalculateLength();
         }
     }
 }
